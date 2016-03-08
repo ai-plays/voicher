@@ -1,6 +1,6 @@
 # Voicher
 * implement a voice changer with python
-* this project is build on OSX
+* this project is built on OSX
 * just for fun & still in progress...
 
 
@@ -11,7 +11,7 @@ http://www.cs.bu.edu/courses/cs101b1/slides/CS101.Lect28.Python.Audio.ppt.pdf
 
 
 ## Format Conversion:
-Convert audio file to .wav, process it, and then convert it to your output format.
+Convert audio file to `.wav`, process it, and then convert it to your output format.
 * `sox nuo.mp3 nuo.wav` 
 * `ffmpeg ...`
 * `mpg123 ...`
