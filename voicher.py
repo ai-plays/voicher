@@ -1,21 +1,29 @@
 import soundfile as sf
 import matplotlib.pyplot as plt
 import random
+import os
+import pyglet
 
-data, samplerate = sf.read('test.wav')
+
+data, samplerate = sf.read("in.wav")
 
 print data.shape
+print samplerate
+samplerate = int(samplerate * 1.5)
 
-plt.plot(data)
-plt.show()
+# plt.plot(data)
+# plt.show()
 
-#print(data[:2])
+
+
 
 #for i, one in enumerate(data):
 	#one[0] = 0
 	#one[1] = 0
 
-#sf.write('2.wav', data, samplerate)
 
-# plt.plot([1,2,3,1])
-# plt.show()
+
+
+
+sf.write("out.wav", data, samplerate)
+os.system("afplay out.wav")
