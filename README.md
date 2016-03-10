@@ -18,17 +18,17 @@ Convert audio file to `.wav`, process it, and then convert it to your output for
 
 
 ## Libraries:
-http://nbviewer.jupyter.org/github/mgeier/python-audio/blob/master/audio-files/index.ipynb
 
 #### PySoundFile:
 * for reading and writing audio files;
 * http://pysoundfile.readthedocs.org/en/0.8.1/
+* other libs: http://nbviewer.jupyter.org/github/mgeier/python-audio/blob/master/audio-files/index.ipynb
 
 
 #### Python-SoundDevice:
 * for recording and playing audio;
 * http://python-sounddevice.readthedocs.org/en/0.3.1/
-* other libs for playing: http://guzalexander.com/2012/08/17/playing-a-sound-with-python.html
+* other libs: http://guzalexander.com/2012/08/17/playing-a-sound-with-python.html
 
 
 #### Additional Notes:
@@ -48,10 +48,15 @@ http://nbviewer.jupyter.org/github/mgeier/python-audio/blob/master/audio-files/i
 
 
 # Steps:
+* tests:
+1. overlay two array;
+2. with music and without music, cmp the diff or two graph;
+3. compress elem then play; repeated elem then play;
+
 * non-real-time voice changer: "voice alteration algorithm"
 	http://dsp-book.narod.ru/Pitch_shifting.pdf
 * real-time voice changer
-
+* learn more about the APIs
 
 
 
